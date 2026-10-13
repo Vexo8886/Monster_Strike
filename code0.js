@@ -1,0 +1,67 @@
+gdjs._1084_1077_1085_1102Code = {};
+gdjs._1084_1077_1085_1102Code.localVariables = [];
+gdjs._1084_1077_1085_1102Code.idToCallbackMap = new Map();
+gdjs._1084_1077_1085_1102Code.GD_951090_951077_951082_951089_951090_9595_951085_951072_951079_951074_951072_951085_951080_951077Objects1= [];
+gdjs._1084_1077_1085_1102Code.GD_951090_951077_951082_951089_951090_9595_951085_951072_951079_951074_951072_951085_951080_951077Objects2= [];
+gdjs._1084_1077_1085_1102Code.GDNewTextObjects1= [];
+gdjs._1084_1077_1085_1102Code.GDNewTextObjects2= [];
+gdjs._1084_1077_1085_1102Code.GD_951089_951095_951077_951090_9595_951074_951088_951072_951075_951086_9510742Objects1= [];
+gdjs._1084_1077_1085_1102Code.GD_951089_951095_951077_951090_9595_951074_951088_951072_951075_951086_9510742Objects2= [];
+
+
+gdjs._1084_1077_1085_1102Code.eventsList0 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "гайд", false);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "anthem-of-the-ussr-rock-version(1).mp3", true, 90, 1);
+}
+}
+
+}
+
+
+};
+
+gdjs._1084_1077_1085_1102Code.func = function(runtimeScene) {
+runtimeScene.getOnceTriggers().startNewFrame();
+
+gdjs._1084_1077_1085_1102Code.GD_951090_951077_951082_951089_951090_9595_951085_951072_951079_951074_951072_951085_951080_951077Objects1.length = 0;
+gdjs._1084_1077_1085_1102Code.GD_951090_951077_951082_951089_951090_9595_951085_951072_951079_951074_951072_951085_951080_951077Objects2.length = 0;
+gdjs._1084_1077_1085_1102Code.GDNewTextObjects1.length = 0;
+gdjs._1084_1077_1085_1102Code.GDNewTextObjects2.length = 0;
+gdjs._1084_1077_1085_1102Code.GD_951089_951095_951077_951090_9595_951074_951088_951072_951075_951086_9510742Objects1.length = 0;
+gdjs._1084_1077_1085_1102Code.GD_951089_951095_951077_951090_9595_951074_951088_951072_951075_951086_9510742Objects2.length = 0;
+
+gdjs._1084_1077_1085_1102Code.eventsList0(runtimeScene);
+gdjs._1084_1077_1085_1102Code.GD_951090_951077_951082_951089_951090_9595_951085_951072_951079_951074_951072_951085_951080_951077Objects1.length = 0;
+gdjs._1084_1077_1085_1102Code.GD_951090_951077_951082_951089_951090_9595_951085_951072_951079_951074_951072_951085_951080_951077Objects2.length = 0;
+gdjs._1084_1077_1085_1102Code.GDNewTextObjects1.length = 0;
+gdjs._1084_1077_1085_1102Code.GDNewTextObjects2.length = 0;
+gdjs._1084_1077_1085_1102Code.GD_951089_951095_951077_951090_9595_951074_951088_951072_951075_951086_9510742Objects1.length = 0;
+gdjs._1084_1077_1085_1102Code.GD_951089_951095_951077_951090_9595_951074_951088_951072_951075_951086_9510742Objects2.length = 0;
+
+
+return;
+
+}
+
+gdjs['_1084_1077_1085_1102Code'] = gdjs._1084_1077_1085_1102Code;
